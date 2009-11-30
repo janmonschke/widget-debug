@@ -9,7 +9,7 @@ It gives you three ways to debug:
 2) opera.postError()
 3) a div displaying your debug messages
 
-First open debug.js and edit parameters as you like (e.g. turn off widet.showNotification() or change background-color of the div).
+First open debug.js and edit parameters as you like (e.g. turn off widet.showNotification() or change background of the div).
 Then just add debug("MyMessage"); to your code and you're done.
 
 You can leave all the debug() calls in your production ready code by turning all debug modes off.
