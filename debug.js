@@ -55,12 +55,11 @@ function debug(message){
             
             document.body.appendChild(debugDiv);
 
-            
+            // make the div disappear when beeing clicked
             debugDiv.onclick = function(event){
                 event.target.style.display = "none";
             };
-            // make the div disappear when beeing clicked
-            window.opera.postError("ee");
+            
         }
         debugDiv.innerHTML = debugDiv.innerHTML + message + DEBUG_separator;
         debugDiv.style.display = "block";
